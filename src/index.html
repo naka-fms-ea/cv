@@ -1,11 +1,113 @@
 <!DOCTYPE html>
-<html>
-    <head>
-    <link href="style.css" rel="stylesheet">
-    <script src="https://code.jquery.com/jquery-4.0.0.js" integrity="sha256-9fsHeVnKBvqh3FB2HYu7g2xseAZ5MlN6Kz/qnkASV8U=" crossorigin="anonymous"></script>
-    <script src="script.js"></script>
-    </head>
-    <body>
+<html lang="fr">
+
+<head>
+	<meta charset="utf-8">
+	<title>CV de Jean Dupont</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+	
+    <!-- HEADER -->
+    <header>
+        <ul class="container">
+            <li>
+                <h1>
+                    <span id="prenom">Jean</span>
+                    <span id="nom">Dupont</span>
+                </h1>
+            </li>
+            <li>
+                <strong>Adresse</strong>
+            </li>
+            <li>
+                <strong>Téléphone</strong>
+            </li>
+            <li>
+                <strong>Mail</strong>
+            </li>
+        </ul>
+    </header>
+    
+    <main class="container">
         
-    </body>
+        <aside>
+        
+            <img src="photo.jpg" alt="Photo du cv"> 
+            
+            <article>
+                <h2>Compétences</h2> 
+                <p>
+                    Développeur web<br>
+                </p> 
+            </article>
+            
+            <article>
+                <h2>Langues</h2>
+                <p>
+                    Français<br>
+                    Anglais<br>
+                    Espagnol
+                </p>
+            </article>
+            
+            <article>
+                <h2>Centre d'intérêt</h2>
+                <p class="noBorder">
+                    Musique<br>
+                    Voyage<br>
+                </p>
+            </article>
+            
+        </aside>
+        
+        <section>
+            <div class="container">
+                <article>
+                    <h2>Présentation</h2>
+                    <p>Passionné par la création et l'innovation digitale, je suis un développeur web polyvalent.
+                </article>
+                <article>
+                    <h2>Formations et diplomes</h2>
+                    <ul>
+                        <li class="exp">
+                            <span class="periode">2012 - 2015</span>
+                            <span class="desc">Licence en Informatique. Université C.Bernard Lyon 1</span>
+                        </li>
+                        <li class="exp">
+                            <span class="periode">2010 - 2012</span>
+                            <span class="desc">DUT Informatique. IUT de Lille, Lille</span>
+                        </li>
+                    </ul>
+                </article>
+                <article>
+                    <h2>Expérience</h2>
+                    <ul class="top10">
+                        <li class="exp">
+                            <span class="periode">2016 - 2024</span>
+                            <span class="desc"><strong>Développeur Web</strong><br>Tech Solutions Inc., Paris</span>
+                        </li>
+                        <li class="exp">
+                            <span class="periode">2013 - 2016</span>
+                            <span class="desc"><strong>Développeur Front-End</strong><br>Creative Web Agency, Paris</span>
+                        </li>
+                    </ul>
+                </article>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <ul class="container">
+            <li></li>
+            <li>
+                <img src="logoface.png" alt="logo Facebook">
+                <a href="#">Jean Dupont</a>
+            </li>
+        </ul>
+    </footer>
+    
+</body>
+
 </html>
